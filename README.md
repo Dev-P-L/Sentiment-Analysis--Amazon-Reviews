@@ -2,6 +2,14 @@
 In progress
 ## Executive Summary
 
+ This is sentiment analysis about an Amazon data sample provided 
+ in the UCI Machine Learning Repository.1,000 reviews have received 
+ sentiment orientation, i.e. "positive" or "negative". The challenge 
+ in this project is maximize accuracy on predicting sentiment orientation 
+ on a validation set of one third. Accuracy is representative since
+ prevalence of positive sentiment orientation is 50 %. 
+ An accuracy level of 84 % has been  reached on the validation set 
+ at the end of a three-tier analysis.
 
 First, Natural Language Processing has been conducted in terms of
 lowercasing, punctuation removal, stemming, tokenization and bag of words,
