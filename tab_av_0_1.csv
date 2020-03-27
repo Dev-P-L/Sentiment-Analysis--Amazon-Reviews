@@ -1,6 +1,0 @@
-"","MODEL","SHORT DESCRIPTION","ACCURACY","SENSITIVITY","NEG PRED VAL","SPECIFICITY","POS PRED VAL"
-"1","baseline","baseline model",0.5,1,0,0,0.5
-"2","cart_av0","rpart",0.7784,0.6617,0.7257,0.8952,0.8633
-"3","cart_tuned_av0","rpart + cp tuning",0.7859,0.7126,0.7493,0.8593,0.8351
-"4","cart_tuned_av1_a","negation short forms + rpart + cp tuning",0.7859,0.7126,0.7493,0.8593,0.8351
-"5","cart_tuned_av1_b","negation unigrams + rpart + cp tuning",0.8084,0.7156,0.7601,0.9012,0.8787
