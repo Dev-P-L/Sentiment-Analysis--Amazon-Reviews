@@ -2,38 +2,14 @@
 In progress
 ## Executive Summary
 
- This is sentiment analysis about an Amazon data sample provided 
- in the UCI Machine Learning Repository.1,000 reviews have received 
- sentiment orientation, i.e. "positive" or "negative". The challenge 
- in this project is maximize accuracy on predicting sentiment orientation 
- on a validation set of one third. Accuracy is representative since
- prevalence of positive sentiment orientation is 50 %. 
- An accuracy level of 84 % has been  reached on the validation set 
- at the end of a three-tier analysis.
+In this project, **sentiment analysis** has been conducted on produced an Amazon data sample provided in UCI Machine Learning Repository. Predictive accuracy of 88 % has been reached on the validation set, against 50 % with the baseline method. 
 
-First, Natural Language Processing has been conducted in terms of
-lowercasing, punctuation removal, stemming, tokenization and bag of words,
-followed by a first CART prediction on the training set. Some fine tuning 
-proved necessary to cope with short forms (intra word contractions), 
-punctuation marks stuck to words, alternative grammar, etc. 
+First, **Natural Language Processing** has been performed: corpus, lowercasing, punctuation handling, stopword removal, stemming, tokenization from sentences into words and bag of words. With NLP, accuracy has gained 25 percentage points.
 
-Second, text mining has focused on word frequency, wordclouds, decision trees and
-analysis of false positives and of false negatives, which have 
-been pinpointed as a weak point. Text mining has opened up two
-avenues for improvement: reintegrating negational unigrams ("not", etc.)
-and text classification. Text classification applied to unigrams 
-or multigrams conveying some subjective information that were present 
-in false negatives or positives but didn't show in decision trees; 
-they have been classified as negative of positive sentiment orientation
-and replaced with one generic negative sentiment token and one
-generic positive sentiment token. Running CART again propelled 
-accuracy to higher levels. 
+Second, **text mining** has brought additional accuracy improvement with 10 percentage points. Two insights have been determinant: in decision trees tokens conveying subjective information predominate; but other pieces of subjective information are not used in numerous false negatives and false positives. Such ignored subjective information has been retrieved from random samples of false negatives and false positives, exclusively on the training set; customized lists have been established with tokens having either positive or negative sentiment orientation; occurrences of these tokens in reviews have been replaced either with a positive or a negative generic token.
 
-Third, machine learning models were then compared in accuracy and,
-complementarily, in other performance metrics. Three out of ten 
-have been picked up: svmRadialCost, which delivered 
-the highest accuracy level, rf and xbgBoost, which produced 
-the highest specificity. To keep on the safe line, an ensemble model
-has been built up by majority vote. The ensemble model 
-has produced an accuracy level of 87 %, 
-to be compared with 50 % for the baseline model.
+Third, **machine learning optimization** has boosted accuracy with 4 additional percentage points. Testing has been conducted on accuracy distributions across bootstrapped resamples. eXtreme Gradient Boosting has emerged as the most performing model in this project. 
+
+
+## TAGS
+sentiment analysis, natural language processing, text mining, subjective information, tokenization, bag of words, word frequency, wordcloud, decision trees, false negatives, false positives, text classification, polarization, lists of positive n-grams, lists of negative n-grams, text substitution, machine learning, binary classification, eXtreme Gradient Boosting, Monotone Multi-Layer Perceptron Neural Network, Random Forest, Stochastic Gradient Boosting, Support Vector Machines with Radial Basis Function Kernel, AdaBoost Classification Trees, bootstrapping, accuracy distribution across resamples, R
