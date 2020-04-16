@@ -1,5 +1,5 @@
-# Sentiment-Analysis
-In progress
+# Sentiment Analysis - Prediction on Amazon Reviews
+
 ## Executive Summary
 
 **88 % prediction accuracy** has been reached on the validation set, against 50 % with a baseline model. Data is an Amazon sample provided in UCI Machine Learning Repository.
