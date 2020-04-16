@@ -2,13 +2,20 @@
 In progress
 ## Executive Summary
 
-In this project, **sentiment analysis** has been conducted on produced an Amazon data sample provided in UCI Machine Learning Repository. Predictive accuracy of 88 % has been reached on the validation set, against 50 % with the baseline method. 
+**88 % prediction accuracy** has been reached on the validation set, against 50 % with a baseline model. Data is an Amazon sample provided in UCI Machine Learning Repository.
 
-First, **Natural Language Processing** has been performed: corpus, lowercasing, punctuation handling, stopword removal, stemming, tokenization from sentences into words and bag of words. With NLP, accuracy has gained 25 percentage points.
+In this sentiment analysis project, which factors have contributed towards that improvement with 38 percentage points?
 
-Second, **text mining** has brought additional accuracy improvement with 10 percentage points. Two insights have been determinant: in decision trees tokens conveying subjective information predominate; but other pieces of subjective information are not used in numerous false negatives and false positives. Such ignored subjective information has been retrieved from random samples of false negatives and false positives, exclusively on the training set; customized lists have been established with tokens having either positive or negative sentiment orientation; occurrences of these tokens in reviews have been replaced either with a positive or a negative generic token.
+**Natural Language Processing** has contributed 21.7 percentage points: corpus, lowercasing, punctuation handling, stopword removal, stemming, tokenization from sentences into words, bag of words. 
 
-Third, **machine learning optimization** has boosted accuracy with 4 additional percentage points. Testing has been conducted on accuracy distributions across bootstrapped resamples. eXtreme Gradient Boosting has emerged as the most performing model in this project. 
+**Text mining** has brought additional accuracy improvement with 12.7 percentage points. The following insights have been determinant. 
+
+In decision trees predominate some tokens conveying subjective information; but other tokens containing subjective information have not been used in false negatives and false positives. Such ignored subjective information has been retrieved from random samples of false negatives and false positives, exclusively on the training set; customized lists have been established with tokens sorted as having either positive or negative sentiment orientation; occurrences of these tokens in reviews have been replaced with either a positive or a negative generic token. Polarization and text substitution have brought 10.3 percentage points out of the 12.7.
+
+Another insight has been about negation impact: negation has been fruitfully integrated, contributing 2.4 percentage points towards the 12.7 improvement from text mining. 
+
+**Machine learning optimization** has been performed across 10 models. Testing has been conducted on accuracy distributions across bootstrapped resamples. eXtreme Gradient Boosting has emerged as the most performing model in this project and has boosted accuracy with 3.6 additional percentage points. 
+ 
 
 
 ## TAGS
