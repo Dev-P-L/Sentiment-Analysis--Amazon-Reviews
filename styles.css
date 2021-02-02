@@ -9,29 +9,20 @@ div#TOC li {
 }
 
 
-/* Color and font in main title */ 
+/* Font in main title */ 
 h1.title {
-        color: white;
-        background-color: #08457E;
-        font-family: Sans-Serif;
         font-size: 48px;
-        text-align: center;
 }
 
 
-/* Color and font in subtitle */
+/* Font in subtitle */
 h3.subtitle {
-        color: white;
-        background-color: #08457E;
-        font-family: Sans-Serif;
         font-size: 24px;
-        text-align: center;
 }
 
 
 /* White space between title/subtitle and "Table of Contents" in h4.date */
 h4.author {
-        color: white;
         background-color: white;
         font-size: 48px;
 }
@@ -39,18 +30,14 @@ h4.author {
 
 /* Color and font of "Table of Contents" introduced in the YAML in "Date" */
 h4.date {
-        color: #0181ff;
+        color: DodgerBlue;
         background-color: white;
-        font-family: Sans-Serif;
-        font-size: 32px;
         font-weight: 700;
         font-style: oblique;
-        text-decoration: underline;
-        text-align: center;
 }
 
 
-/* Color and font of level 1 headers */
+/* Color (dark cerulean) and font of level 1 headers */
 h1 {
   color: white;
   background-color: #08457E;
@@ -61,32 +48,35 @@ h1 {
 }
 
 
-/* Color and font of level 2 headers */
+/* Color (dark cerulean) and font of level 2 headers */
 h2 {
   color: white;
   background-color: #08457E;
   font-family: Sans-Serif;
   font-size: 32px;
+  font-weight: bold;
   text-align: center;
 }
 
 
-/* Color and font of level 3 headers */
+/* Color (dark cerulean) and font of level 3 headers */
 h3 {
   color: white;
   background-color: #08457E;
   font-family: Sans-Serif;
   font-size: 32px;
+  font-weight: bold;
   text-align: center;
 }
 
 
-/* Color and font of level 4 headers */    
+/* Color (dark cerulean) and font of level 4 headers */    
 h4 {
   color: white;
   background-color: #08457E;
   font-family: Sans-Serif;
   font-size: 32px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -105,19 +95,37 @@ text-align: justify}
 
 /* Color and font of links and URLs */
 a {
- color: dodgerblue;                  
+ color: DodgerBlue;                  
  font-family: Sans-Serif; 
  font-weight: 700;
  font-style: oblique;
 }
 
 
-/* Color and font of links and URLs when hovered upon*/
-a.hover {
- color: crimson;                  
+/* Color and font of links and URLs when hovered upon */
+a:hover {
+ color: HotPink;                  
  font-family: Sans-Serif; 
  font-weight: 700;
  font-style: oblique;
+}
+
+
+/* Color and font of links and URLs just when activated */
+a:active {
+  color: Crimson;
+  font-family: Sans-Serif; 
+  font-weight: 700;
+  font-style: oblique;
+}
+
+
+/* Color and font of links and URLs if they have been visited */
+a:visited {
+  color: BlueViolet;
+  font-family: Sans-Serif; 
+  font-weight: 700;
+  font-style: oblique;
 }
 
 
