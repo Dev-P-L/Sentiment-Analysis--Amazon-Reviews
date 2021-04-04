@@ -26,3 +26,10 @@ Another insight has been about negation impact: negation has been fruitfully int
 
 ## TAGS
 sentiment analysis, natural language processing, text mining, subjective information, tokenization, bag of words, word frequency, wordcloud, decision trees, false negatives, false positives, text classification, polarization, lists of positive n-grams, lists of negative n-grams, text substitution, machine learning, binary classification, eXtreme Gradient Boosting, Monotone Multi-Layer Perceptron Neural Network, Random Forest, Stochastic Gradient Boosting, Support Vector Machines with Radial Basis Function Kernel, AdaBoost Classification Trees, bootstrapping, accuracy distribution across resamples, R
+
+
+
+## Warning
+I reran the code in 2021 and obtained better results! Actually, this is due to the function *createDataPartition()* delivering other results with R version 4.0.3 (2020-10-10): the function creates the training set and the validation set in a different way and this introduces a bias! This is no improvement!
+
+Consequently, if you wish to run the code, I suggest that you rather run the code in the new version of this project, which you can find in another repository in this GitHub account. Sorry for the inconvenience. 
