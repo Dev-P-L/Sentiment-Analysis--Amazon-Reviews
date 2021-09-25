@@ -14,7 +14,7 @@
 
   * Alternatively again, you could knit SA_Amazon_Code.Rmd or ask me by email for a copy of SA_Amazon_Insights&Results.html.
 
-
+<br>
 
 ## Executive Summary
 
@@ -32,7 +32,7 @@ Another insight has been about negation impact: negation has been fruitfully int
 
 **Machine learning optimization** has been performed across 10 models. Testing has been conducted on accuracy distributions across bootstrapped resamples. eXtreme Gradient Boosting has emerged as the most performing model in this project and has boosted accuracy with 3.6 additional percentage points. 
  
-
+<br>
 
 ## TAGS
 sentiment analysis, natural language processing, text mining, subjective information, tokenization, bag of words, word frequency, wordcloud, decision trees, false negatives, false positives, text classification, polarization, lists of positive n-grams, lists of negative n-grams, text substitution, machine learning, binary classification, eXtreme Gradient Boosting, Monotone Multi-Layer Perceptron Neural Network, Random Forest, Stochastic Gradient Boosting, Support Vector Machines with Radial Basis Function Kernel, AdaBoost Classification Trees, bootstrapping, accuracy distribution across resamples, R
