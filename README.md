@@ -4,7 +4,17 @@
 
 - This project is comprised of twelve files. 
 - All code is included in SA_Amazon_Code.Rmd. 
-- Insights, results and methods are in SA_Amazon_Insights&Results.html. 
+- Insights, results and methods are in SA_Amazon_Insights&Results.html.
+
+- Wishing to visualize SA_Amazon_Insights&Results.html?
+
+  * You could open it in GitHub Desktop.
+
+  * Alternatively, you could use the URL https://rawcdn.githack.com/Dev-P-L/Bank-Marketing/17b63a112231f23fa7729ed62b9a5998b0a1adad/Report.html which, when activated, delivers SA_Amazon_Insights&Results.html to the browser with the correct Content-Type headers. The URL has been obtained by introducing the GitHub URL of SA_Amazon_Insights&Results.html into https://raw.githack.com/ as suggested in https://stackoverflow.com/questions/6551446/can-i-run-html-files-directly-from-github-instead-of-just-viewing-their-source .
+
+  * Alternatively again, you could knit SA_Amazon_Code.Rmd or ask me by email for a copy of SA_Amazon_Insights&Results.html.
+
+
 
 ## Executive Summary
 
