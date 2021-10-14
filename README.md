@@ -6,12 +6,12 @@
 - All code is included in SA_Amazon_Code.Rmd. 
 - Insights, results and methods are in SA_Amazon_Insights&Results.html.
 
-- Wishing to visualize *Recommendation_Report.pdf*? Very easy: just download it from GitHub.
+- Wishing to visualize *SA_Amazon_Insights&Results.pdf* or *SA_Amazon_Insights&Results.oxps*? Very easy: just download them from GitHub.
 
 - Wishing to visualize *SA_Amazon_Insights&Results.html*?
   * You could activate the hyperlink *https://dev-p-l.github.io/Recommendation-System/Recommendation_Report.html* .
   * Alternatively, you could open it in GitHub Desktop.
-  * Alternatively again, you could knit *Report.Rmd* or ask me by email for a copy of *SA_Amazon_Insights&Results.html* .
+  * Alternatively again, you could knit *SA_Amazon_Code.Rmd* or ask me by email for a copy of *SA_Amazon_Insights&Results.html* .
 
 <br>
 
