@@ -6,14 +6,12 @@
 - All code is included in SA_Amazon_Code.Rmd. 
 - Insights, results and methods are in SA_Amazon_Insights&Results.html.
 
-- Wishing to visualize SA_Amazon_Insights&Results.html?
+- Wishing to visualize *Recommendation_Report.pdf*? Very easy: just download it from GitHub.
 
-  * You could open it in GitHub Desktop.
-
-  * Alternatively, you could use the URL 
-https://rawcdn.githack.com/Dev-P-L/Sentiment-Analysis--Amazon-Reviews/8b62f1430d4c5b440102de1855c1d83384c9078f/SA_Amazon_Insights&Results.html which, when activated, delivers SA_Amazon_Insights&Results.html to the browser with the correct Content-Type headers. The URL has been obtained by introducing the GitHub URL of SA_Amazon_Insights&Results.html into https://raw.githack.com/ as suggested in https://stackoverflow.com/questions/6551446/can-i-run-html-files-directly-from-github-instead-of-just-viewing-their-source .
-
-  * Alternatively again, you could knit SA_Amazon_Code.Rmd or ask me by email for a copy of SA_Amazon_Insights&Results.html.
+- Wishing to visualize *SA_Amazon_Insights&Results.html*?
+  * You could activate the hyperlink *https://dev-p-l.github.io/Recommendation-System/Recommendation_Report.html* .
+  * Alternatively, you could open it in GitHub Desktop.
+  * Alternatively again, you could knit *Report.Rmd* or ask me by email for a copy of *SA_Amazon_Insights&Results.html* .
 
 <br>
 
