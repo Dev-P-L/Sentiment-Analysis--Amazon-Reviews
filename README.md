@@ -5,7 +5,8 @@ https://dev-p-l.github.io/Sentiment-Analysis--Amazon-Reviews/SA_Amazon_Insights&
 <br>
 <br>
 
-# Presentation of Sentiment Analysis Project on Prediction of Amazon Reviews Polarity
+# Presentation of Sentiment Analysis Project on 
+# Prediction of Amazon Reviews Polarity
 
 ## Files
 
