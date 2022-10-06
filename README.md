@@ -1,4 +1,11 @@
-# Sentiment Analysis - Prediction on Amazon Reviews
+# Access to HTML Document
+
+https://dev-p-l.github.io/Sentiment-Analysis--Amazon-Reviews/SA_Amazon_Insights&Results.html
+
+<br>
+<br>
+
+# Presentation of Sentiment Analysis Project on Prediction of Amazon Reviews Polarity
 
 ## Files
 
@@ -9,7 +16,7 @@
 - Wishing to visualize *SA_Amazon_Insights&Results.pdf* or *SA_Amazon_Insights&Results.oxps*? Very easy: just download them from GitHub.
 
 - Wishing to visualize *SA_Amazon_Insights&Results.html*?
-  * You could activate the hyperlink *https://dev-p-l.github.io/Sentiment-Analysis--Amazon-Reviews/SA_Amazon_Insights&Results.html* .
+  * You could activate the hyperlink https://dev-p-l.github.io/Sentiment-Analysis--Amazon-Reviews/SA_Amazon_Insights&Results.html .
   * Alternatively, you could open it in GitHub Desktop.
   * Alternatively again, you could knit *SA_Amazon_Code.Rmd* or ask me by email for a copy of *SA_Amazon_Insights&Results.html* .
 
